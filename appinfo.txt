@@ -1,0 +1,20 @@
+Application Name: Stock Predictor
+Version: 1.0
+Release Date: 09/01/2024
+Author: Cristian Ferrara
+
+Description:
+Stock Predictor is a Flask web application that uses a linear regression model to predict stock prices. The application retrieves historical stock data using yfinance and employs scikit-learn for the prediction model.
+
+Dependencies:
+- Flask
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
+- yfinance
+
+License: [Cristian Ferrara 2024]
+
+
+Testg cri

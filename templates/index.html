@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Previsione Mercato Azionario</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Prediction of Stock Market</h1>
+        </div>
+        <div class="content">
+            <h2>Result of prediction </h2>
+            <p>Prediction for next day: {{ predizione }}</p>
+            <p>model trust: {{ fiducia }}</p>
+        </div>
+    </div>
+</body>
+</html>
